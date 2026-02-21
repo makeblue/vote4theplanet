@@ -1,0 +1,11 @@
+/* Shared styles for Vote4thePlanet article pages */
+.home-nav {
+  background: #13357b;
+  padding: 0.4rem 1rem;
+}
+.home-nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
