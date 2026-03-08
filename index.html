@@ -142,6 +142,37 @@
       @media (max-width: 600px) {
         .stand-list { grid-template-columns: 1fr; }
       }
+      .risers-preview {
+        background: #f5effe;
+        border-radius: 6px;
+        padding: 1.25rem 1.5rem;
+        margin: 1rem 0 1.25rem;
+      }
+      .risers-preview p.week-label {
+        margin: 0 0 0.75rem;
+        font-weight: bold;
+        color: #3d1a6e;
+      }
+      .risers-preview ul {
+        margin: 0 0 1rem;
+        padding-left: 1.2rem;
+      }
+      .risers-preview li {
+        margin-bottom: 0.6rem;
+        font-size: 0.97rem;
+      }
+      .risers-preview .see-all {
+        display: inline-block;
+        font-weight: bold;
+        color: #e8630a;
+        text-decoration: none;
+      }
+      .risers-preview .see-all:hover {
+        text-decoration: underline;
+      }
+      #risers-preview > p {
+        margin-bottom: 0.75rem;
+      }
     </style>
   </head>
   <body>
@@ -155,6 +186,7 @@
         <li><a href="index.html">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#articles">Articles</a></li>
+        <li><a href="risers/index.html">Risers</a></li>
       </ul>
     </nav>
     <main>
@@ -254,6 +286,24 @@
             <p>A Tennessee congressman has introduced a constitutional amendment to allow three presidential terms. We unpack the proposal and explore why term limits guard against the rise of dictators.</p>
           </li>
         </ul>
+      </section>
+      <section id="risers-preview">
+        <h2>Risers of the Week</h2>
+        <p>
+          Every week we spotlight real people and movements standing up for
+          democracy, truth and human dignity around the world. We don&rsquo;t
+          write these stories &mdash; we point you to the journalists and
+          communities who did.
+        </p>
+        <div class="risers-preview">
+          <p class="week-label">Week of March 8, 2026</p>
+          <ul>
+            <li><strong>Scientists Rally Nationwide to Defend Evidence and Democracy</strong> &mdash; Thousands gathered across U.S. cities for a national &ldquo;Stand Up for Science&rdquo; day of action, calling for evidence-based governance and scientific independence.</li>
+            <li><strong>Thousands Return to Selma to Defend Voting Rights</strong> &mdash; Civil rights leaders and citizens marched across the Edmund Pettus Bridge, honoring the 1965 voting-rights march and warning against new threats to democratic representation.</li>
+            <li><strong>Communities Organize Local &ldquo;Stand for Science and Democracy&rdquo; Events</strong> &mdash; Grassroots organizations across the country rallied in support of science, public health and civic accountability.</li>
+          </ul>
+          <a href="risers/index.html" class="see-all">See all Risers &rarr;</a>
+        </div>
       </section>
       <section id="join">
         <h2>Join the movement</h2>
