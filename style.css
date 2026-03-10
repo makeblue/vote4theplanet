@@ -2,6 +2,9 @@
 .home-nav {
   background: #3d1a6e;
   padding: 0.4rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .home-nav a {
   color: #ffb347;
